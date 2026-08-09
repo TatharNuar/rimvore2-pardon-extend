@@ -29,13 +29,26 @@ namespace PRV2E
 
         private float AgingSpeed = 0f;
 
+        // 从 Mod 设置读取的强度倍率（可在游戏内实时调整）
+        private float RegressionMultiplier
+        {
+            get
+            {
+                if (PRV2EMod.Instance != null && PRV2EMod.Instance.Settings != null)
+                {
+                    return PRV2EMod.Instance.Settings.RegressionStrength;
+                }
+                return 1f;
+            }
+        }
+
         public override void CompPostTick(ref float severityAdjustment)
         {
             if (Pawn.ageTracker.AgeBiologicalTicks > Pawn.ageTracker.AdultMinAgeTicks || !Props.limitMinAge)
             {
                 if (Find.TickManager.TicksGame % 60 == 0)
                 {
-                    float RegressionSpeed = Props.RegressionStrength * parent.Severity;
+                    float RegressionSpeed = Props.RegressionStrength * parent.Severity * RegressionMultiplier;
 
                     //更新描述文本
                     AgingSpeed = 1f - RegressionSpeed;

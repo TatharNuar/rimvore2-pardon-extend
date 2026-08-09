@@ -82,7 +82,7 @@
         <chronic>false</chronic>
         <comps>
             <li Class="PRV2E.HediffCompProperties_Regression">
-                <RegressionStrength>30</RegressionStrength>
+                <RegressionStrength>1</RegressionStrength>
                 <limitMinAge>true</limitMinAge>
             </li>
             <li Class="PRV2E.HediffCompProperties_DependOnHediff">
@@ -109,7 +109,7 @@
         <chronic>false</chronic>
         <comps>
             <li Class="PRV2E.HediffCompProperties_Regression">
-                <RegressionStrength>30</RegressionStrength>
+                <RegressionStrength>1</RegressionStrength>
                 <limitMinAge>false</limitMinAge>
             </li>
             <li Class="PRV2E.HediffCompProperties_DependOnHediff">

@@ -8,14 +8,6 @@ Chinese version: [CN_README.md](CN_README.md)
 
 ## 🔥 Main Features
 
-- Added a series of **vore-related genes**, including:
-  - Capacity
-  - Mobility
-  - Digestion Strength
-  - Anti-Digestion Strength
-  - Conversion Efficiency
-  - Preheating Speed
-  - Absorption Speed
 - Added some new **Quirks**, including Preheating Speed and Absorption Speed.
 - Changed the **nutrition value of conversion products** and allowed them to be further processed into **food**, or **neutral amine, synthetic fibers**.
 - Made some **vanilla traits** also affect **grabbing chance** and **attack power**.

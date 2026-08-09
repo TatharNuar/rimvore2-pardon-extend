@@ -25,77 +25,18 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/RimVore2.VoreStageDef[defName="Womb_Reform"]</xpath>
-        <value>
-            <RimVore2.VoreStageDef Name="Womb_Reform" ParentName="Womb_Base">
-                <defName>Womb_Reform</defName>
-                <partGoal>Reform</partGoal>
-                <jumpKey>Womb</jumpKey>
-                <canReverseDirection>true</canReverseDirection>
-                <predatorHediffDef>RV2_PreyInWombReforming</predatorHediffDef>
-                <predatorThoughtDef>RV2_PreyInWombReforming</predatorThoughtDef>
-                <onStart>
-                    <actions>
-                        <li Class="RimVore2.RollAction_PassValue_Set">
-                            <name>ReformProgress</name>
-                            <type>DigestionProgress</type>
-                        </li>
-                        <li Class="RimVore2.RollAction_ShowMote">
-                            <mote>RV2_Mote_BubblesLove</mote>
-                        </li>
-                    </actions>
-                </onStart>
-                <onCycle>
-                    <rollPresets>
-                        <li>StealNeed_ForPrey_Food</li>
-                        <li>Heal_Prey</li>
-                        <li>Sound_Squish_Chance_30</li>
-                        <li>IncreaseReformProgress</li>
-                        <li>AddUnlimitedRegressionHediff</li>
-                        <li>IncreaseNeed_Prey_Comfort</li>
-                        <li>SkillAbsorb_Prey</li>
-                    </rollPresets>
-                </onCycle>
-                <onEnd>
-                    <actions>
-                        <li Class="RimVore2.RollAction_Reform" />
-                        <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
-                    </actions>
-                </onEnd>
-                <passConditions>
-                    <li Class="PRV2E.StagePassCondition_Reform">
-                        <passValueName>ReformProgress</passValueName>
-                        <targetValue>50</targetValue>
-                        <target>Prey</target>
-                        <targetAge>0</targetAge>
-                    </li>
-                </passConditions>
-            </RimVore2.VoreStageDef>
-        </value>
-    </Operation>
-
-    <Operation Class='PatchOperationAdd'>
-        <xpath>/Defs/RimVore2.VoreStageDef[@ParentName="Womb_Base" and not(@Name="Womb_Reform")]/onCycle/rollPresets</xpath>
-        <value>
-            <li>AddRegressionHediff</li>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Nabber.CumSlimes</li>  <!-- 要检测的模组名称 -->
-        </mods>
+    <Operation Class="PRV2E.PatchOperationCheckSetting">
+        <settingName>EnableReformPatch</settingName>
         <match Class="PatchOperationReplace">
-            <xpath>/Defs/RimVore2.VoreStageDef[defName="NCS_Testicles_Reform"]</xpath>
+            <xpath>/Defs/RimVore2.VoreStageDef[defName="Womb_Reform"]</xpath>
             <value>
-                <RimVore2.VoreStageDef Name="NCS_Testicles_Reform" ParentName="Testicles_Base">
-                    <defName>NCS_Testicles_Reform</defName>
+                <RimVore2.VoreStageDef Name="Womb_Reform" ParentName="Womb_Base">
+                    <defName>Womb_Reform</defName>
                     <partGoal>Reform</partGoal>
-                    <jumpKey>Testicles</jumpKey>
+                    <jumpKey>Womb</jumpKey>
                     <canReverseDirection>true</canReverseDirection>
-                    <predatorHediffDef>RV2_PreyInTesticlesReforming</predatorHediffDef>
-                    <predatorThoughtDef>RV2_PreyInTesticlesReforming</predatorThoughtDef>
+                    <predatorHediffDef>RV2_PreyInWombReforming</predatorHediffDef>
+                    <predatorThoughtDef>RV2_PreyInWombReforming</predatorThoughtDef>
                     <onStart>
                         <actions>
                             <li Class="RimVore2.RollAction_PassValue_Set">
@@ -110,70 +51,8 @@
                     <onCycle>
                         <rollPresets>
                             <li>StealNeed_ForPrey_Food</li>
-                            <li>Sound_Squish_Chance_30</li>
                             <li>Heal_Prey</li>
-                            <li>IncreaseReformProgress</li>
-                            <li>AddUnlimitedRegressionHediff</li>
-                            <li>IncreaseNeed_Prey_Comfort</li>
-                            <li>SkillAbsorb_Prey</li>
-                        </rollPresets>
-                    </onCycle>
-                    <onEnd>
-                        <actions>
-                            <li Class="RimVore2.RollAction_Reform">
-                                <!-- setting the resulting pawnKind / race ignores predator / prey
-                                races -->
-                                <resultingPawnKind>NCS_CumSlime</resultingPawnKind>
-                                <resultingRace>NCS_CumSlime</resultingRace>
-                                <!-- cum slimes are only female -->
-                                <fixedGender>Female</fixedGender>
-                            </li>
-                            <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
-                        </actions>
-                    </onEnd>
-                    <passConditions>
-                        <li Class="PRV2E.StagePassCondition_Reform">
-                            <passValueName>ReformProgress</passValueName>
-                            <targetValue>25</targetValue>
-                            <target>Prey</target>
-                            <targetAge>0</targetAge>
-                        </li>
-                    </passConditions>
-                </RimVore2.VoreStageDef>
-            </value>
-        </match>
-    </Operation>
-
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Amecissist.TailCompability</li>  <!-- 要检测的模组名称 -->
-        </mods>
-        <match Class="PatchOperationReplace">
-            <xpath>/Defs/RimVore2.VoreStageDef[defName="Tailthroat_Reform"]</xpath>
-            <value>
-                <RimVore2.VoreStageDef Name="Tailthroat_Reform" ParentName="Tailthroat_Base">
-                    <defName>Tailthroat_Reform</defName>
-                    <partGoal>Reform</partGoal>
-                    <jumpKey>Tailthroat</jumpKey>
-                    <canReverseDirection>true</canReverseDirection>
-                    <predatorHediffDef>RV2_PreyInTailthroatReforming</predatorHediffDef>
-                    <predatorThoughtDef>RV2_PreyInTailthroatReforming</predatorThoughtDef>
-                    <onStart>
-                        <actions>
-                            <li Class="RimVore2.RollAction_PassValue_Set">
-                                <name>ReformProgress</name>
-                                <type>DigestionProgress</type>
-                            </li>
-                            <li Class="RimVore2.RollAction_ShowMote">
-                                <mote>RV2_Mote_BubblesGamete</mote>
-                            </li>
-                        </actions>
-                    </onStart>
-                    <onCycle>
-                        <rollPresets>
-                            <li>StealNeed_ForPrey_Food</li>
                             <li>Sound_Squish_Chance_30</li>
-                            <li>Heal_Prey</li>
                             <li>IncreaseReformProgress</li>
                             <li>AddUnlimitedRegressionHediff</li>
                             <li>IncreaseNeed_Prey_Comfort</li>
@@ -183,8 +62,7 @@
                     <onEnd>
                         <actions>
                             <li Class="RimVore2.RollAction_Reform" />
-                            <!--<li
-                            Class="RimVore2.RollAction_RecordTale_GoalFinish"/>-->
+                            <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
                         </actions>
                     </onEnd>
                     <passConditions>
@@ -197,6 +75,142 @@
                     </passConditions>
                 </RimVore2.VoreStageDef>
             </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PRV2E.PatchOperationCheckSetting">
+        <settingName>EnableRegressionHediff</settingName>
+        <match Class='PatchOperationAdd'>
+            <xpath>/Defs/RimVore2.VoreStageDef[@ParentName="Womb_Base" and
+                not(@Name="Womb_Reform")]/onCycle/rollPresets</xpath>
+            <value>
+                <li>AddRegressionHediff</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PRV2E.PatchOperationCheckSetting">
+        <settingName>EnableReformPatch</settingName>
+        <match Class="PatchOperationFindMod">
+            <mods>
+                <li>Nabber.CumSlimes</li>  <!-- 要检测的模组名称 -->
+            </mods>
+            <match Class="PatchOperationReplace">
+                <xpath>/Defs/RimVore2.VoreStageDef[defName="NCS_Testicles_Reform"]</xpath>
+                <value>
+                    <RimVore2.VoreStageDef Name="NCS_Testicles_Reform" ParentName="Testicles_Base">
+                        <defName>NCS_Testicles_Reform</defName>
+                        <partGoal>Reform</partGoal>
+                        <jumpKey>Testicles</jumpKey>
+                        <canReverseDirection>true</canReverseDirection>
+                        <predatorHediffDef>RV2_PreyInTesticlesReforming</predatorHediffDef>
+                        <predatorThoughtDef>RV2_PreyInTesticlesReforming</predatorThoughtDef>
+                        <onStart>
+                            <actions>
+                                <li Class="RimVore2.RollAction_PassValue_Set">
+                                    <name>ReformProgress</name>
+                                    <type>DigestionProgress</type>
+                                </li>
+                                <li Class="RimVore2.RollAction_ShowMote">
+                                    <mote>RV2_Mote_BubblesLove</mote>
+                                </li>
+                            </actions>
+                        </onStart>
+                        <onCycle>
+                            <rollPresets>
+                                <li>StealNeed_ForPrey_Food</li>
+                                <li>Sound_Squish_Chance_30</li>
+                                <li>Heal_Prey</li>
+                                <li>IncreaseReformProgress</li>
+                                <li>AddUnlimitedRegressionHediff</li>
+                                <li>IncreaseNeed_Prey_Comfort</li>
+                                <li>SkillAbsorb_Prey</li>
+                            </rollPresets>
+                        </onCycle>
+                        <onEnd>
+                            <actions>
+                                <li Class="RimVore2.RollAction_Reform">
+                                    <!-- setting the resulting pawnKind / race ignores predator /
+                                    prey
+                                races -->
+                                    <resultingPawnKind>NCS_CumSlime</resultingPawnKind>
+                                    <resultingRace>NCS_CumSlime</resultingRace>
+                                    <!-- cum slimes are only female -->
+                                    <fixedGender>Female</fixedGender>
+                                </li>
+                                <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
+                            </actions>
+                        </onEnd>
+                        <passConditions>
+                            <li Class="PRV2E.StagePassCondition_Reform">
+                                <passValueName>ReformProgress</passValueName>
+                                <targetValue>25</targetValue>
+                                <target>Prey</target>
+                                <targetAge>0</targetAge>
+                            </li>
+                        </passConditions>
+                    </RimVore2.VoreStageDef>
+                </value>
+            </match>
+        </match>
+    </Operation>
+
+    <Operation Class="PRV2E.PatchOperationCheckSetting">
+        <settingName>EnableReformPatch</settingName>
+        <match Class="PatchOperationFindMod">
+            <mods>
+                <li>Amecissist.TailCompability</li>  <!-- 要检测的模组名称 -->
+            </mods>
+            <match Class="PatchOperationReplace">
+                <xpath>/Defs/RimVore2.VoreStageDef[defName="Tailthroat_Reform"]</xpath>
+                <value>
+                    <RimVore2.VoreStageDef Name="Tailthroat_Reform" ParentName="Tailthroat_Base">
+                        <defName>Tailthroat_Reform</defName>
+                        <partGoal>Reform</partGoal>
+                        <jumpKey>Tailthroat</jumpKey>
+                        <canReverseDirection>true</canReverseDirection>
+                        <predatorHediffDef>RV2_PreyInTailthroatReforming</predatorHediffDef>
+                        <predatorThoughtDef>RV2_PreyInTailthroatReforming</predatorThoughtDef>
+                        <onStart>
+                            <actions>
+                                <li Class="RimVore2.RollAction_PassValue_Set">
+                                    <name>ReformProgress</name>
+                                    <type>DigestionProgress</type>
+                                </li>
+                                <li Class="RimVore2.RollAction_ShowMote">
+                                    <mote>RV2_Mote_BubblesGamete</mote>
+                                </li>
+                            </actions>
+                        </onStart>
+                        <onCycle>
+                            <rollPresets>
+                                <li>StealNeed_ForPrey_Food</li>
+                                <li>Sound_Squish_Chance_30</li>
+                                <li>Heal_Prey</li>
+                                <li>IncreaseReformProgress</li>
+                                <li>AddUnlimitedRegressionHediff</li>
+                                <li>IncreaseNeed_Prey_Comfort</li>
+                                <li>SkillAbsorb_Prey</li>
+                            </rollPresets>
+                        </onCycle>
+                        <onEnd>
+                            <actions>
+                                <li Class="RimVore2.RollAction_Reform" />
+                                <!--<li
+                            Class="RimVore2.RollAction_RecordTale_GoalFinish"/>-->
+                            </actions>
+                        </onEnd>
+                        <passConditions>
+                            <li Class="PRV2E.StagePassCondition_Reform">
+                                <passValueName>ReformProgress</passValueName>
+                                <targetValue>50</targetValue>
+                                <target>Prey</target>
+                                <targetAge>0</targetAge>
+                            </li>
+                        </passConditions>
+                    </RimVore2.VoreStageDef>
+                </value>
+            </match>
         </match>
     </Operation>
 

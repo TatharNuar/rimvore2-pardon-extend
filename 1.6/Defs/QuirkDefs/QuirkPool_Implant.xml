@@ -10,6 +10,7 @@
         <poolType>RollForEach</poolType>
         <quirks>
             <li>RV2_DigestionAdjuster</li>
+            <li>RV2_VoreAssistant</li>
         </quirks>
         <blockingKeywords>
             <li>PawnIsAnimal</li>

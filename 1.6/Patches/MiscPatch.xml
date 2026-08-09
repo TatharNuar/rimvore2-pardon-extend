@@ -151,4 +151,28 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationAdd">
+    <xpath>
+      /Defs/RimVore2.QuirkDef[defName="PostVoreAbilities_PsyfocusGainPrey"]/comps/rolls/li/actionsOnSuccess</xpath>
+    <value>
+      <li Class="RimVore2.RollAction_IncreaseHediffSeverity">
+        <target>Prey</target>
+        <hediff>PsychicAmplifier</hediff>
+        <addHediffIfNotPresent>true</addHediffIfNotPresent>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>
+      /Defs/RimVore2.QuirkDef[defName="PostVoreAbilities_PsyfocusGainPredator"]/comps/rolls/li/actionsOnSuccess</xpath>
+    <value>
+      <li Class="RimVore2.RollAction_IncreaseHediffSeverity">
+        <target>Predator</target>
+        <hediff>PsychicAmplifier</hediff>
+        <addHediffIfNotPresent>true</addHediffIfNotPresent>
+      </li>
+    </value>
+  </Operation>
+
 </Patch>
