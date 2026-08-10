@@ -44,8 +44,9 @@ namespace PRV2E
             //listing.CheckboxLabeled("PRV2E.Settings.EnableReplacedNutrition".Translate(), ref PRV2E.EnableReplacedNutrition);
 
             listing.Gap();
-            listing.Label("PRV2E.Settings.RegressionLabel".Translate());
-            RegressionStrength = listing.SliderLabeled("PRV2E.Settings.RegressionSlider".Translate(), RegressionStrength, 1, 120, 1, "0");
+            listing.Label("PRV2E.Settings.RegressionSlider".Translate() + ": " + RegressionStrength.ToString("0"));
+            float newRegression = listing.Slider(RegressionStrength, 1f, 120f);
+            RegressionStrength = Mathf.Round(newRegression);
 
             listing.End();
         }
