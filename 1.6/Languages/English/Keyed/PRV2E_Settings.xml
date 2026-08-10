@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PRV2E.Settings.Heading>The following toggles control whether the VoreStagePatch is applied.</PRV2E.Settings.Heading>
+  <PRV2E.Settings.RestartNote><![CDATA[Changes require <color=#FF7F7F> restarting the game </color> to take effect.]]></PRV2E.Settings.RestartNote>
+  <PRV2E.Settings.EnableReformPatch>Enable replacing the reform mechanics</PRV2E.Settings.EnableReformPatch>
+  <PRV2E.Settings.EnableRegressionHediff>Enable womb age regression</PRV2E.Settings.EnableRegressionHediff>
+  <PRV2E.Settings.RegressionLabel>Regression strength multiplier (takes effect immediately)</PRV2E.Settings.RegressionLabel>
+  <PRV2E.Settings.RegressionSlider>Regression strength multiplier</PRV2E.Settings.RegressionSlider>
+</LanguageData>

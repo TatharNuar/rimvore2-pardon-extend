@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PRV2E.Settings.Heading>以下开关控制 VoreStagePatch 是否生效。</PRV2E.Settings.Heading>
+  <PRV2E.Settings.RestartNote><![CDATA[修改后需要<color=#FF7F7F> 重启游戏 </color>才会生效。]]></PRV2E.Settings.RestartNote>
+  <PRV2E.Settings.EnableReformPatch>启用 替换版重塑机制</PRV2E.Settings.EnableReformPatch>
+  <PRV2E.Settings.EnableRegressionHediff>启用 子宫年龄衰退</PRV2E.Settings.EnableRegressionHediff>
+  <PRV2E.Settings.EnableFasterRecover>启用 治疗吞噬中的加速愈合</PRV2E.Settings.EnableFasterRecover>
+  <PRV2E.Settings.RegressionLabel>逆生长强度倍率（调整后实时生效）</PRV2E.Settings.RegressionLabel>
+  <PRV2E.Settings.RegressionSlider>逆生长强度倍率</PRV2E.Settings.RegressionSlider>
+</LanguageData>

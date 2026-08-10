@@ -14,17 +14,19 @@ namespace PRV2E
        
         public bool EnableReformPatch = true;
         public bool EnableRegressionHediff = true;
+        public bool EnableFasterRecover = true;
 
-        /// <summary>逆生长 (Regression) 强度倍率，1 = 原版强度</summary>
         public float RegressionStrength = 30f;
 
         public override void ExposeData()
         {
             base.ExposeData();
             
-            Scribe_Values.Look(ref EnableReformPatch, "EnableReformPatch", true);
-            Scribe_Values.Look(ref EnableRegressionHediff, "EnableRegressionHediff", true);
-            Scribe_Values.Look(ref RegressionStrength, "RegressionStrength", 30f);
+            Scribe_Values.Look(ref EnableReformPatch, "PRV2E_EnableReformPatch", true);
+            Scribe_Values.Look(ref EnableRegressionHediff, "PRV2E_EnableRegressionHediff", true);
+            Scribe_Values.Look(ref EnableFasterRecover, "PRV2E_EnableFasterRecover", true);
+
+            Scribe_Values.Look(ref RegressionStrength, "PRV2E_RegressionStrength", 30f);
         }
 
         public void DoSettingsWindowContents(Rect inRect)
@@ -32,17 +34,18 @@ namespace PRV2E
             Listing_Standard listing = new Listing_Standard();
             listing.Begin(inRect);
 
-            listing.Label("以下开关控制 VoreStagePatch 是否生效。");
-            listing.Label("修改后需要<color=#FF7F7F> 重启游戏 </color>才会生效。");
+            listing.Label("PRV2E.Settings.Heading".Translate());
+            listing.Label("PRV2E.Settings.RestartNote".Translate());
             listing.Gap();
 
-            
-            listing.CheckboxLabeled("启用 替换重塑机制", ref EnableReformPatch);
-            listing.CheckboxLabeled("启用 子宫年龄衰退", ref EnableRegressionHediff);
+            listing.CheckboxLabeled("PRV2E.Settings.EnableReformPatch".Translate(), ref EnableReformPatch);
+            listing.CheckboxLabeled("PRV2E.Settings.EnableRegressionHediff".Translate(), ref EnableRegressionHediff);
+            listing.CheckboxLabeled("PRV2E.Settings.EnableFasterRecover".Translate(), ref EnableFasterRecover);
+            //listing.CheckboxLabeled("PRV2E.Settings.EnableReplacedNutrition".Translate(), ref PRV2E.EnableReplacedNutrition);
 
             listing.Gap();
-            listing.Label("逆生长强度倍率（调整后实时生效）");
-            RegressionStrength = listing.SliderLabeled("逆生长强度倍率", RegressionStrength, 1, 120, 2, "0");
+            listing.Label("PRV2E.Settings.RegressionLabel".Translate());
+            RegressionStrength = listing.SliderLabeled("PRV2E.Settings.RegressionSlider".Translate(), RegressionStrength, 1, 120, 1, "0");
 
             listing.End();
         }

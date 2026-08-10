@@ -26,7 +26,7 @@
     </Operation>
 
     <Operation Class="PRV2E.PatchOperationCheckSetting">
-        <settingName>EnableReformPatch</settingName>
+        <settingName>PRV2E_EnableReformPatch</settingName>
         <match Class="PatchOperationReplace">
             <xpath>/Defs/RimVore2.VoreStageDef[defName="Womb_Reform"]</xpath>
             <value>
@@ -79,18 +79,7 @@
     </Operation>
 
     <Operation Class="PRV2E.PatchOperationCheckSetting">
-        <settingName>EnableRegressionHediff</settingName>
-        <match Class='PatchOperationAdd'>
-            <xpath>/Defs/RimVore2.VoreStageDef[@ParentName="Womb_Base" and
-                not(@Name="Womb_Reform")]/onCycle/rollPresets</xpath>
-            <value>
-                <li>AddRegressionHediff</li>
-            </value>
-        </match>
-    </Operation>
-
-    <Operation Class="PRV2E.PatchOperationCheckSetting">
-        <settingName>EnableReformPatch</settingName>
+        <settingName>PRV2E_EnableReformPatch</settingName>
         <match Class="PatchOperationFindMod">
             <mods>
                 <li>Nabber.CumSlimes</li>  <!-- 要检测的模组名称 -->
@@ -156,7 +145,7 @@
     </Operation>
 
     <Operation Class="PRV2E.PatchOperationCheckSetting">
-        <settingName>EnableReformPatch</settingName>
+        <settingName>PRV2E_EnableReformPatch</settingName>
         <match Class="PatchOperationFindMod">
             <mods>
                 <li>Amecissist.TailCompability</li>  <!-- 要检测的模组名称 -->
@@ -211,6 +200,27 @@
                     </RimVore2.VoreStageDef>
                 </value>
             </match>
+        </match>
+    </Operation>
+
+    <Operation Class="PRV2E.PatchOperationCheckSetting">
+        <settingName>PRV2E_EnableRegressionHediff</settingName>
+        <match Class='PatchOperationAdd'>
+            <xpath>/Defs/RimVore2.VoreStageDef[@ParentName="Womb_Base" and
+                not(@Name="Womb_Reform")]/onCycle/rollPresets</xpath>
+            <value>
+                <li>AddRegressionHediff</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PRV2E.PatchOperationCheckSetting">
+        <settingName>PRV2E_EnableFasterRecover</settingName>
+        <match Class='PatchOperationAdd'>
+            <xpath>/Defs/RimVore2.VoreStageDef[voreGoal="Heal"]/onCycle/rollPresets</xpath>
+            <value>
+                <li>AddFasterRecoverHediff</li>
+            </value>
         </match>
     </Operation>
 
