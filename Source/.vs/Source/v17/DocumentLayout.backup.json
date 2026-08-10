@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rimvore2-pardon-extend\\source\\settings\\prv2esettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|solutionrelative:settings\\prv2esettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rimvore2-pardon-extend\\source\\hediffs\\hediffcomp_regression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|solutionrelative:hediffs\\hediffcomp_regression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\settings\\prv2esettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|solutionrelative:settings\\prv2esettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\vore\\stagepasscondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,30 +22,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PRV2ESettings.cs",
               "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Settings\\PRV2ESettings.cs",
               "RelativeDocumentMoniker": "Settings\\PRV2ESettings.cs",
-              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Settings\\PRV2ESettings.cs*",
-              "RelativeToolTip": "Settings\\PRV2ESettings.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA0wBwAAAA+AAAAAAAAAA==",
+              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Settings\\PRV2ESettings.cs",
+              "RelativeToolTip": "Settings\\PRV2ESettings.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-10T02:33:24.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-10T02:33:24.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HediffComp_Regression.cs",
               "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Hediffs\\HediffComp_Regression.cs",
               "RelativeDocumentMoniker": "Hediffs\\HediffComp_Regression.cs",
               "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Hediffs\\HediffComp_Regression.cs",
               "RelativeToolTip": "Hediffs\\HediffComp_Regression.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAqwC8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-15T04:21:42.369Z",
               "EditorCaption": ""

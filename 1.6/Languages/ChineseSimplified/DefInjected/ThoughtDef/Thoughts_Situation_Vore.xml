@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- EN: One prey amalgamated -->
   <RV2_PreyInsideAmalgamating.stages.One_prey_amalgamated.label>TODO</RV2_PreyInsideAmalgamating.stages.One_prey_amalgamated.label>
   <!-- EN: Enjoy padding me... -->
@@ -17,7 +17,7 @@
   <RV2_PreyInsideAmalgamating.stages.Several_prey_amalgamated.label>TODO</RV2_PreyInsideAmalgamating.stages.Several_prey_amalgamated.label>
   <!-- EN: I'm *drooling* at the thought of more...~ -->
   <RV2_PreyInsideAmalgamating.stages.Several_prey_amalgamated.description>TODO</RV2_PreyInsideAmalgamating.stages.Several_prey_amalgamated.description>
-
+  
   <!-- EN: One prey assimilated -->
   <RV2_PreyInsideAssimilating.stages.One_prey_assimilated.label>TODO</RV2_PreyInsideAssimilating.stages.One_prey_assimilated.label>
   <!-- EN: Enjoy padding me... -->
@@ -34,7 +34,7 @@
   <RV2_PreyInsideAssimilating.stages.Several_prey_assimilated_into_womb.label>TODO</RV2_PreyInsideAssimilating.stages.Several_prey_assimilated_into_womb.label>
   <!-- EN: I'm *drooling* at the thought of more...~ -->
   <RV2_PreyInsideAssimilating.stages.Several_prey_assimilated_into_womb.description>TODO</RV2_PreyInsideAssimilating.stages.Several_prey_assimilated_into_womb.description>
-
+  
   <!-- EN: Pre-absorption pleasure -->
   <RV2_PreyInsideContacting.stages.Preabsorption_pleasure-0.label>TODO</RV2_PreyInsideContacting.stages.Preabsorption_pleasure-0.label>
   <!-- EN: Who says I can't play with my new part before I absorb them? -->
@@ -43,7 +43,7 @@
   <RV2_PreyInsideContacting.stages.Preabsorption_pleasure-1.label>TODO</RV2_PreyInsideContacting.stages.Preabsorption_pleasure-1.label>
   <!-- EN: Everyone's thirsty for their new shape, huh? -->
   <RV2_PreyInsideContacting.stages.Preabsorption_pleasure-1.description>TODO</RV2_PreyInsideContacting.stages.Preabsorption_pleasure-1.description>
-
+  
   <!-- EN: Draining prey in insides -->
   <RV2_PreyInsideDrain.stages.Draining_prey_in_insides.label>TODO</RV2_PreyInsideDrain.stages.Draining_prey_in_insides.label>
   <!-- EN: Thanks for the snack! -->
@@ -60,7 +60,16 @@
   <RV2_PreyInsideDrain.stages.Draining_several_prey_in_insides.label>TODO</RV2_PreyInsideDrain.stages.Draining_several_prey_in_insides.label>
   <!-- EN: So heavy...!~ -->
   <RV2_PreyInsideDrain.stages.Draining_several_prey_in_insides.description>TODO</RV2_PreyInsideDrain.stages.Draining_several_prey_in_insides.description>
-
+  
+  <!-- EN: Healing prey in gelatinous body. -->
+  <RV2_PreyInsideHealing.stages.Healing_prey_in_gelatinous_body.label>TODO</RV2_PreyInsideHealing.stages.Healing_prey_in_gelatinous_body.label>
+  <!-- EN: Let's get you patched up! -->
+  <RV2_PreyInsideHealing.stages.Healing_prey_in_gelatinous_body.description>TODO</RV2_PreyInsideHealing.stages.Healing_prey_in_gelatinous_body.description>
+  <!-- EN: Healing multiple prey in gelatinous body. -->
+  <RV2_PreyInsideHealing.stages.Healing_multiple_prey_in_gelatinous_body.label>TODO</RV2_PreyInsideHealing.stages.Healing_multiple_prey_in_gelatinous_body.label>
+  <!-- EN: Let's get you patched up! -->
+  <RV2_PreyInsideHealing.stages.Healing_multiple_prey_in_gelatinous_body.description>TODO</RV2_PreyInsideHealing.stages.Healing_multiple_prey_in_gelatinous_body.description>
+  
   <!-- EN: Loosening up to absorb prey -->
   <RV2_PreyInsideLoosening.stages.Loosening_up_to_absorb_prey.label>TODO</RV2_PreyInsideLoosening.stages.Loosening_up_to_absorb_prey.label>
   <!-- EN: That's it, keep eating...~ -->
@@ -69,7 +78,7 @@
   <RV2_PreyInsideLoosening.stages.Loosening_up_to_absorb_multiple_prey.label>TODO</RV2_PreyInsideLoosening.stages.Loosening_up_to_absorb_multiple_prey.label>
   <!-- EN: They start to meld... inside me -->
   <RV2_PreyInsideLoosening.stages.Loosening_up_to_absorb_multiple_prey.description>TODO</RV2_PreyInsideLoosening.stages.Loosening_up_to_absorb_multiple_prey.description>
-
+  
   <!-- EN: Purging remains -->
   <RV2_PreyInsidePurging.stages.Purging_remains-0.label>TODO</RV2_PreyInsidePurging.stages.Purging_remains-0.label>
   <!-- EN: Gotta work the air out! -->
@@ -78,7 +87,7 @@
   <RV2_PreyInsidePurging.stages.Purging_remains-1.label>TODO</RV2_PreyInsidePurging.stages.Purging_remains-1.label>
   <!-- EN: I will remember what your contribute to me. -->
   <RV2_PreyInsidePurging.stages.Purging_remains-1.description>TODO</RV2_PreyInsidePurging.stages.Purging_remains-1.description>
-
+  
   <!-- EN: Reforming prey -->
   <RV2_PreyInsideReforming.stages.Reforming_prey.label>TODO</RV2_PreyInsideReforming.stages.Reforming_prey.label>
   <!-- EN: My child! -->
@@ -95,7 +104,7 @@
   <RV2_PreyInsideReforming.stages.Reforming_multiple_prey.label>TODO</RV2_PreyInsideReforming.stages.Reforming_multiple_prey.label>
   <!-- EN: Wow, I have a whole litter growing inside. -->
   <RV2_PreyInsideReforming.stages.Reforming_multiple_prey.description>TODO</RV2_PreyInsideReforming.stages.Reforming_multiple_prey.description>
-
+  
   <!-- EN: Reshaping prey from -->
   <RV2_PreyInsideReshaping.stages.Reshaping_prey_from.label>TODO</RV2_PreyInsideReshaping.stages.Reshaping_prey_from.label>
   <!-- EN: I'll miss you... -->
@@ -104,7 +113,7 @@
   <RV2_PreyInsideReshaping.stages.Reshaping_multiple_prey.label>TODO</RV2_PreyInsideReshaping.stages.Reshaping_multiple_prey.label>
   <!-- EN: I don't wanna be loose again! -->
   <RV2_PreyInsideReshaping.stages.Reshaping_multiple_prey.description>TODO</RV2_PreyInsideReshaping.stages.Reshaping_multiple_prey.description>
-
+  
   <!-- EN: Churning prey in insides -->
   <RV2_PreyInsideSoftChurning.stages.Churning_prey_in_insides.label>TODO</RV2_PreyInsideSoftChurning.stages.Churning_prey_in_insides.label>
   <!-- EN: UUrrp! Mmm, thanks, tasty.~ -->
@@ -121,7 +130,7 @@
   <RV2_PreyInsideSoftChurning.stages.Churning_several_prey_in_insides.label>TODO</RV2_PreyInsideSoftChurning.stages.Churning_several_prey_in_insides.label>
   <!-- EN: BWWOORRRP! Hoooph!~ -->
   <RV2_PreyInsideSoftChurning.stages.Churning_several_prey_in_insides.description>TODO</RV2_PreyInsideSoftChurning.stages.Churning_several_prey_in_insides.description>
-
+  
   <!-- EN: Prey leaving insides -->
   <RV2_PreyInsideSoftProcessing.stages.Prey_leaving_insides.label>TODO</RV2_PreyInsideSoftProcessing.stages.Prey_leaving_insides.label>
   <!-- EN: Think they passed out. -->
@@ -138,7 +147,16 @@
   <RV2_PreyInsideSoftProcessing.stages.Several_prey_leaving_insides.label>TODO</RV2_PreyInsideSoftProcessing.stages.Several_prey_leaving_insides.label>
   <!-- EN: Gonna squish and sqweeze you all the way though...~ -->
   <RV2_PreyInsideSoftProcessing.stages.Several_prey_leaving_insides.description>TODO</RV2_PreyInsideSoftProcessing.stages.Several_prey_leaving_insides.description>
-
+  
+  <!-- EN: Warming up insides for prey -->
+  <RV2_PreyInsideWarming.stages.Warming_up_insides_for_prey.label>TODO</RV2_PreyInsideWarming.stages.Warming_up_insides_for_prey.label>
+  <!-- EN: Oh, the plans I have for you! -->
+  <RV2_PreyInsideWarming.stages.Warming_up_insides_for_prey.description>TODO</RV2_PreyInsideWarming.stages.Warming_up_insides_for_prey.description>
+  <!-- EN: Warming up insides for multiple prey -->
+  <RV2_PreyInsideWarming.stages.Warming_up_insides_for_multiple_prey.label>TODO</RV2_PreyInsideWarming.stages.Warming_up_insides_for_multiple_prey.label>
+  <!-- EN: Oh, the plans I have for you! -->
+  <RV2_PreyInsideWarming.stages.Warming_up_insides_for_multiple_prey.description>TODO</RV2_PreyInsideWarming.stages.Warming_up_insides_for_multiple_prey.description>
+  
   <!-- EN: Digesting prey in tail-throat -->
   <RV2_PreyInTailThroatDigesting.stages.Digesting_prey_in_tailthroat.label>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_prey_in_tailthroat.label>
   <!-- EN: A proper meal! -->
@@ -155,7 +173,7 @@
   <RV2_PreyInTailThroatDigesting.stages.Digesting_several_prey_in_tailthroat.label>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_several_prey_in_tailthroat.label>
   <!-- EN: I don't care if all these morsels give me indigestion. No regrets!~ -->
   <RV2_PreyInTailThroatDigesting.stages.Digesting_several_prey_in_tailthroat.description>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_several_prey_in_tailthroat.description>
-
+  
   <!-- EN: Healing prey in tail-throat -->
   <RV2_PreyInTailThroatHealing.stages.Healing_prey_in_tailthroat.label>TODO</RV2_PreyInTailThroatHealing.stages.Healing_prey_in_tailthroat.label>
   <!-- EN: Let's get you patched up! -->
@@ -164,7 +182,7 @@
   <RV2_PreyInTailThroatHealing.stages.Healing_multiple_prey_in_tailthroat.label>TODO</RV2_PreyInTailThroatHealing.stages.Healing_multiple_prey_in_tailthroat.label>
   <!-- EN: Let's get you patched up! -->
   <RV2_PreyInTailThroatHealing.stages.Healing_multiple_prey_in_tailthroat.description>TODO</RV2_PreyInTailThroatHealing.stages.Healing_multiple_prey_in_tailthroat.description>
-
+  
   <!-- EN: Warming up tail-throat for prey -->
   <RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_prey.label>TODO</RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_prey.label>
   <!-- EN: Oh, the plans I have for you! -->
@@ -173,7 +191,7 @@
   <RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_multiple_prey.label>TODO</RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_multiple_prey.label>
   <!-- EN: Oh, the plans I have for you! -->
   <RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_multiple_prey.description>TODO</RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_multiple_prey.description>
-
+  
   <!-- EN: One prey amalgamated into womb -->
   <RV2_PreyInWombAmalgamating.stages.One_prey_amalgamated_into_womb.label>TODO</RV2_PreyInWombAmalgamating.stages.One_prey_amalgamated_into_womb.label>
   <!-- EN: Enjoy padding my underbelly... -->
@@ -190,7 +208,7 @@
   <RV2_PreyInWombAmalgamating.stages.Several_prey_amalgamated_into_womb.label>TODO</RV2_PreyInWombAmalgamating.stages.Several_prey_amalgamated_into_womb.label>
   <!-- EN: I'm *drooling* at the thought of more...~ -->
   <RV2_PreyInWombAmalgamating.stages.Several_prey_amalgamated_into_womb.description>TODO</RV2_PreyInWombAmalgamating.stages.Several_prey_amalgamated_into_womb.description>
-
+  
   <!-- EN: One prey assimilated into womb -->
   <RV2_PreyInWombAssimilating.stages.One_prey_assimilated_into_womb.label>TODO</RV2_PreyInWombAssimilating.stages.One_prey_assimilated_into_womb.label>
   <!-- EN: Enjoy padding my underbelly... -->
@@ -207,7 +225,7 @@
   <RV2_PreyInWombAssimilating.stages.Several_prey_assimilated_into_womb.label>TODO</RV2_PreyInWombAssimilating.stages.Several_prey_assimilated_into_womb.label>
   <!-- EN: I'm *drooling* at the thought of more...~ -->
   <RV2_PreyInWombAssimilating.stages.Several_prey_assimilated_into_womb.description>TODO</RV2_PreyInWombAssimilating.stages.Several_prey_assimilated_into_womb.description>
-
+  
   <!-- EN: Pre-absorption womb pleasure -->
   <RV2_PreyInWombContacting.stages.Preabsorption_womb_pleasure-0.label>TODO</RV2_PreyInWombContacting.stages.Preabsorption_womb_pleasure-0.label>
   <!-- EN: Who says I can't play with my belly-puffers before I absorb them? -->
@@ -216,7 +234,7 @@
   <RV2_PreyInWombContacting.stages.Preabsorption_womb_pleasure-1.label>TODO</RV2_PreyInWombContacting.stages.Preabsorption_womb_pleasure-1.label>
   <!-- EN: Everyone's thirsty for their new shape, huh? -->
   <RV2_PreyInWombContacting.stages.Preabsorption_womb_pleasure-1.description>TODO</RV2_PreyInWombContacting.stages.Preabsorption_womb_pleasure-1.description>
-
+  
   <!-- EN: Loosening up to absorb prey into womb -->
   <RV2_PreyInWombLoosening.stages.Loosening_up_to_absorb_prey_into_womb.label>TODO</RV2_PreyInWombLoosening.stages.Loosening_up_to_absorb_prey_into_womb.label>
   <!-- EN: That's it, keep eating...~ -->
@@ -225,7 +243,7 @@
   <RV2_PreyInWombLoosening.stages.Loosening_up_to_absorb_multiple_prey_into_womb.label>TODO</RV2_PreyInWombLoosening.stages.Loosening_up_to_absorb_multiple_prey_into_womb.label>
   <!-- EN: They start to meld... inside me -->
   <RV2_PreyInWombLoosening.stages.Loosening_up_to_absorb_multiple_prey_into_womb.description>TODO</RV2_PreyInWombLoosening.stages.Loosening_up_to_absorb_multiple_prey_into_womb.description>
-
+  
   <!-- EN: Purging remains from womb -->
   <RV2_PreyInWombPurging.stages.Purging_remains_from_womb-0.label>TODO</RV2_PreyInWombPurging.stages.Purging_remains_from_womb-0.label>
   <!-- EN: Gotta work the air out! -->
@@ -234,7 +252,7 @@
   <RV2_PreyInWombPurging.stages.Purging_remains_from_womb-1.label>TODO</RV2_PreyInWombPurging.stages.Purging_remains_from_womb-1.label>
   <!-- EN: I will remember what your contribute to me. -->
   <RV2_PreyInWombPurging.stages.Purging_remains_from_womb-1.description>TODO</RV2_PreyInWombPurging.stages.Purging_remains_from_womb-1.description>
-
+  
   <!-- EN: Reshaping prey from womb -->
   <RV2_PreyInWombReshaping.stages.Reshaping_prey_from_womb.label>TODO</RV2_PreyInWombReshaping.stages.Reshaping_prey_from_womb.label>
   <!-- EN: I'll miss this puffiness... -->
@@ -243,5 +261,5 @@
   <RV2_PreyInWombReshaping.stages.Reshaping_multiple_prey_from_womb.label>TODO</RV2_PreyInWombReshaping.stages.Reshaping_multiple_prey_from_womb.label>
   <!-- EN: I don't wanna be loose again! -->
   <RV2_PreyInWombReshaping.stages.Reshaping_multiple_prey_from_womb.description>TODO</RV2_PreyInWombReshaping.stages.Reshaping_multiple_prey_from_womb.description>
-
+  
 </LanguageData>

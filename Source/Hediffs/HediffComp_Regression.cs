@@ -38,7 +38,7 @@ namespace PRV2E
                 {
                     return PRV2EMod.Instance.Settings.RegressionStrength;
                 }
-                return 1f;
+                return 30f;
             }
         }
 

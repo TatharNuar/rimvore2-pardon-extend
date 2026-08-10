@@ -4,7 +4,7 @@
   <!-- EN: make neutroamine -->
   <RV2_MakeNeutroamine.label>提取中性胺</RV2_MakeNeutroamine.label>
   <!-- EN: Make a neutroamine. -->
-  <RV2_MakeNeutroamine.description>从吞噬产物中提取中性胺。</RV2_MakeNeutroamine.description>
+  <RV2_MakeNeutroamine.description>从吞噬产物中提取中性胺</RV2_MakeNeutroamine.description>
   <!-- EN: Making neutroamine. -->
   <RV2_MakeNeutroamine.jobString>正在提取中性胺。</RV2_MakeNeutroamine.jobString>
   

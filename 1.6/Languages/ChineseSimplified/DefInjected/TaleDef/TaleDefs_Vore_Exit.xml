@@ -27,7 +27,7 @@
   <RV2_VoreExit_CleavageDrain.rulePack.rulesStrings>TODO</RV2_VoreExit_CleavageDrain.rulePack.rulesStrings>
   
   <!-- EN: finished vore -->
-  <RV2_VoreExit_InsidesAmalgamate.label>TODO</RV2_VoreExit_InsidesAmalgamate.label>
+  <RV2_VoreExit_MembraneAmalgamate.label>TODO</RV2_VoreExit_MembraneAmalgamate.label>
   <!-- EN:
     <li>circumstance_phrase->seemingly without remorse</li>
     <li>circumstance_phrase->with cold efficiency</li>
@@ -49,10 +49,10 @@
     <li>RV2_exit_predVerb->dumping</li>
     <li>RV2_exit_preyVerb->being dumped by</li>
   -->
-  <RV2_VoreExit_InsidesAmalgamate.rulePack.rulesStrings>TODO</RV2_VoreExit_InsidesAmalgamate.rulePack.rulesStrings>
+  <RV2_VoreExit_MembraneAmalgamate.rulePack.rulesStrings>TODO</RV2_VoreExit_MembraneAmalgamate.rulePack.rulesStrings>
   
   <!-- EN: finished vore -->
-  <RV2_VoreExit_InsidesAssimilate.label>TODO</RV2_VoreExit_InsidesAssimilate.label>
+  <RV2_VoreExit_MembraneAssimilate.label>TODO</RV2_VoreExit_MembraneAssimilate.label>
   <!-- EN:
     <li>circumstance_phrase->seemingly without remorse</li>
     <li>circumstance_phrase->with cold efficiency</li>
@@ -74,7 +74,7 @@
     <li>RV2_exit_predVerb->dumping</li>
     <li>RV2_exit_preyVerb->being dumped by</li>
   -->
-  <RV2_VoreExit_InsidesAssimilate.rulePack.rulesStrings>TODO</RV2_VoreExit_InsidesAssimilate.rulePack.rulesStrings>
+  <RV2_VoreExit_MembraneAssimilate.rulePack.rulesStrings>TODO</RV2_VoreExit_MembraneAssimilate.rulePack.rulesStrings>
   
   <!-- EN: finished vore -->
   <RV2_VoreExit_MembraneDrain.label>TODO</RV2_VoreExit_MembraneDrain.label>

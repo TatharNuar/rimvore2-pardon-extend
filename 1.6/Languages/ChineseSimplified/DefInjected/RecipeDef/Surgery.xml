@@ -8,4 +8,11 @@
   <!-- EN: Installing digestion adjuster. -->
   <RV2_InstallDigestionAdjuster.jobString>正在安装消化调节器。</RV2_InstallDigestionAdjuster.jobString>
   
+  <!-- EN: install vore assistant -->
+  <RV2_InstallVoreAssistant.label>TODO</RV2_InstallVoreAssistant.label>
+  <!-- EN: Install a vore assistant. -->
+  <RV2_InstallVoreAssistant.description>TODO</RV2_InstallVoreAssistant.description>
+  <!-- EN: Installing a vore assistant. -->
+  <RV2_InstallVoreAssistant.jobString>TODO</RV2_InstallVoreAssistant.jobString>
+  
 </LanguageData>

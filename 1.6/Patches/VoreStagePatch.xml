@@ -217,7 +217,7 @@
     <Operation Class="PRV2E.PatchOperationCheckSetting">
         <settingName>PRV2E_EnableFasterRecover</settingName>
         <match Class='PatchOperationAdd'>
-            <xpath>/Defs/RimVore2.VoreStageDef[voreGoal="Heal"]/onCycle/rollPresets</xpath>
+            <xpath>/Defs/RimVore2.VoreStageDef[partGoal="Heal"]/onCycle/rollPresets</xpath>
             <value>
                 <li>AddFasterRecoverHediff</li>
             </value>
