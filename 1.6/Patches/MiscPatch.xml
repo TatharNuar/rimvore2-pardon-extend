@@ -166,7 +166,7 @@
 
   <Operation Class="PatchOperationAdd">
     <xpath>
-      /Defs/RimVore2.QuirkDef[defName="PostVoreAbilities_PsyfocusGainPredator"]/li[@Class="RimVore2.QuirkComp_PostVoreAction"]/comps/rolls/li/actionsOnSuccess
+      /Defs/RimVore2.QuirkDef[defName="PostVoreAbilities_PsyfocusGainPredator"]/comps/li[@Class="RimVore2.QuirkComp_PostVoreAction"]/rolls/li/actionsOnSuccess
     </xpath>
     <value>
       <li Class="RimVore2.RollAction_IncreaseHediffSeverity">

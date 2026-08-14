@@ -10,20 +10,12 @@
 		<![CDATA[<color=#E0D83C><size=20>RimVore2 pardon's Extend (PRV2E)</size></color>
 
 This is a <b>submod</b> for <b>RimVore 2</b> adding genes and expanding RV2 features.
-[ZH] 添加了和吞噬有关的基因和植入物.
 
 --------------------------------------------------
 
 <size=18>Main Features</size>
 
-- Added a series of <b>vore-related genes,</b> including:
-  -- Capacity
-  -- Mobility
-  -- Digestion Strength
-  -- Anti-Digestion Strength
-  -- Conversion Efficiency
-  -- Preheating Speed
-  -- Absorption Speed
+
 - Added some new <b>RV2 quirks,</b> including Preheating Speed and Absorption Speed.
 - Changed the <b>nutrition value of conversion products</b> and allowed them to be further processed into <b>food, neutroamine, or synthread.</b>
 - Made some <b>vanilla traits</b> also affect <i>grapple chance</i> and <i>grapple power.</i>
@@ -64,6 +56,7 @@ This is a <b>submod</b> for <b>RimVore 2</b> adding genes and expanding RV2 feat
 		<li>
 			<packageId>MamaHorseteeth.RimVore2ExtraVores</packageId>
 			<displayName>RimVore-2 (Overstuffed)</displayName>
+			<downloadUrl>https://gitlab.com/MamaHorseteeth/rimvore-2-overstuffed.git</downloadUrl>
 		</li>
 		<li>
 			<packageId>brrainz.harmony</packageId>

@@ -2,7 +2,7 @@
 
 这是 **RimVore2** 的一个 **submod** —— **RimVore2 pardon's Extend (PRV2E)** 的储存库。
 
-English version [README.md](README.md)
+English version: [README.md](README.md)
 
 ---
 
